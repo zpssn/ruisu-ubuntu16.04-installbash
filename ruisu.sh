@@ -15,7 +15,7 @@ apt-get install -y linux-image-extra-$KER_VER
 
 mkdir -p /appex
 cat > /appex/appexinstall.sh << TEMPEOF
-wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh" && bash /tmp/appex.sh 'install' << EOF
+wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/zpssn/serverSpeeser_Install/master/appex.sh" && bash /tmp/appex.sh 'install' << EOF
 
 EOF
 cp /etc/rc.local.old.ruisu /etc/rc.local 
